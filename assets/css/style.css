@@ -31,17 +31,12 @@ li{
    flex-direction: row;
 }
 
-.flex-column{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-}
-
 .flex-footer-1{
    display: flex;
    flex-direction: row;
    justify-content: space-between;
    border-bottom: 1px solid #7289DA;
+   padding-bottom: 40px;
 }
 
 .flex-footer-2{
@@ -143,8 +138,6 @@ li{
    height: 800px;
    background-size: 878px 640px;
    background-repeat: no-repeat;
-   background-position: center;
-   border: 1px solid black;
 }
 
 .image-1{
@@ -153,12 +146,10 @@ li{
 
 .image-2{
    background-image: url(../img/item2.svg);
-   background-position: center;
 }
 
 .image-3{
    background-image: url(../img/item3.svg);
-   background-position: center;
 }
 
 .image-4{
@@ -171,7 +162,6 @@ li{
 .text{
    flex-basis:30%;
    padding: 40px 20px;
-   border: 1px solid black;
 }
 
 .text h2{
@@ -192,11 +182,10 @@ li{
    text-align: center;
    font-size: 1.7rem;
    margin-top: 160px;
-   border: 1px solid black;
 }
 
 .subtitle-button h3{
-   padding-top: 80px;
+   padding-top: 100px;
    background-image: url(../img/stars.svg);
    background-repeat: no-repeat;
    background-position: center;
@@ -204,17 +193,18 @@ li{
 
 .subtitle-button button{
    background-color: #8EA1E1;
+   color: white;
 }
 
 .social{
    background-color: #23272A;
-   flex-grow: 1;
-
+   width: 300px;
 }
 
 .social h3{
    font-size: 2rem;
    color: #7289DA;
+   margin-bottom: 20px;
 }
 
 .social img{
@@ -222,13 +212,13 @@ li{
 }
 
 .section-5 ul{
-   flex-basis: 20%;
+   flex-basis: 10%;
    color: white;
    background-color: #23272A;
 }
 
 .section-5{
-   margin-top: 90px;
+   padding: 100px 0 0 0;
    background-color: #23272A;
 }
 
@@ -236,15 +226,31 @@ li{
    background-color: #5E5E5E;
 }
 
-/* .section-6 .container-section{
-   background-color: #23272A;
-} */
-
 .special{
    color: #7289DA;
 }
 
-.section-5, .section-6{
-   padding: 0;
+.section-6{
+   padding: 0 0 70px 0;
    background-color: #23272A;
+}
+
+.register.button{
+   background-color: #8EA1E1;
+   color: white;
+   font-size: 1.2rem;
+   padding: 12px 15px;
+}
+
+.flag{
+   background-image: url(../img/ita.png);
+   background-size: contain;
+   width: 35px;
+   height: 25px;
+}
+
+.current, .current::after{
+   content: "\2228";
+   margin: 0 10px 0 10px;
+   color: white;
 }
