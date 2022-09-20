@@ -12,7 +12,9 @@ body{
 }
 
 header{
-   background-color: #D9D9D9;
+   /* background-color: #D9D9D9; */
+   background-image: url(../img/jumbo.png);
+   background-size: cover;
 }
 
 li{
@@ -24,14 +26,14 @@ li{
 .flex{
    display: flex;
    flex-direction: row;
-   justify-content: space-between;
+   /* justify-content: space-between; */
 }
 
-.flex-column{
+/* .flex-column{
    display: flex;
    flex-direction: column;
    align-items: center;
-}
+} */
 
 .flex-footer-1{
    display: flex;
@@ -53,18 +55,17 @@ li{
 .top-menu{
    width: 80%;
    margin: auto;
-   background-color: #FF3737;
    height: 100px;
 }
 
-.logo{
-   background-color: #A7EEAE;
-   width: 150px;
-   height: 100px;
+.logo img{
+   align-items: center;
+   justify-content: center;
+   width: 200px;
 }
 
 .menu{
-   background-color: #A7EEAE;
+   /* background-color: #A7EEAE; */
    width: 40%;
    margin: auto;
    height: 100px;
@@ -81,7 +82,7 @@ li{
 }
 
 .button-container{
-   background-color: #A7EEAE;
+   /* background-color: #A7EEAE; */
    height: 100px;
    width: 150px;
    display: flex;
@@ -109,31 +110,31 @@ li{
    color: white;
 }
 
+.download{
+   background-color: #FFFFFF;
+}
+
 .download::before{
    content: "\2193";
    margin-right: 10px;
 }
 
-.download{
-   background-color: #FFFFFF;
+.download, .ds-web{
+   margin: 40px 20px;
 }
 
 .container-1{
    width: 40%;
    margin: auto;
    text-align: center;
-   background-color: #EC8E37;
    color: #FFF;
-   height: 500px;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
    line-height: 28px;
    font-size: 1.5rem;
+   padding: 170px 0px;
 }
 
 .container-1 h1{
-   margin-bottom: 70px;
+   margin-bottom: 80px;
    font-size: 3.5rem;
    font-weight: 700;
 }
