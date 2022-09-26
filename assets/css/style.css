@@ -13,11 +13,12 @@ body{
 
 header{
    background-image: url(../img/jumbo.png);
-   background-size: cover;
+   background-size: contain;
+   background-repeat: no-repeat;
 }
 
 section{
-   padding: 150px 0;
+   padding: 200px 0;
 }
 
 li{
@@ -116,7 +117,7 @@ li{
    color: #FFF;
    line-height: 40px;
    font-size: 1.5rem;
-   padding: 170px 0px;
+   padding: 120px 0px;
 }
 
 .container-1 h1{
@@ -135,32 +136,15 @@ li{
 
 .images-container{
    flex-basis: 60%;
-   height: 650px;
-   background-size: 878px 640px;
+   /* height: 650px;
+   background-size: 878px 640px; */
    background-repeat: no-repeat;
-}
-
-.image-1{
-   background-image: url(../img/item1.svg);
-}
-
-.image-2{
-   background-image: url(../img/item2.svg);
-}
-
-.image-3{
-   background-image: url(../img/item3.svg);
-}
-
-.images-container.image-4{
-   height: 800px;
-}
-
-.image-4{
-   background-image: url(../img/item4-big.svg);
-   background-position: center;
    background-size: cover;
-   margin: 50px 0px;
+   background-position: center;
+}
+
+.images{
+   width: 100%;
 }
 
 .text{
